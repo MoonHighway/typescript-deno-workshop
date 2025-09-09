@@ -1,0 +1,15 @@
+{
+  "name": "applied-typescript",
+  "scripts": {
+    "test": "./scripts/test.sh"
+  },
+  "author": "Simon Plenderleith <simon@simonplend.co.uk> (https://simonplend.com/)",
+  "devDependencies": {
+    "@total-typescript/tsconfig": "^1.0.4",
+    "tsx": "^4.11.2",
+    "typescript": "^5.4.5"
+  },
+  "workspaces": [
+    "**/{start,solution,completed}"
+  ]
+}
